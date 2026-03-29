@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Mar 29 18:31:01 2026
+# Process ID         : 4415
+# Current directory  : /home/daniel455/GPIO_UVM/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/gpio_sim_snapshot/xsim_script.tcl}
+# Log file           : /home/daniel455/GPIO_UVM/sim/xsim.log
+# Journal file       : /home/daniel455/GPIO_UVM/sim/xsim.jou
+# Running On         : daniel455
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 5800X 8-Core Processor
+# CPU Frequency      : 3872.321 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16682 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 16682 MB
+# Available Virtual  : 14454 MB
+#-----------------------------------------------------------
+source xsim.dir/gpio_sim_snapshot/xsim_script.tcl
+# xsim {gpio_sim_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /home/daniel455/Vivado/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axi_driver' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axi_agent' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axi_env' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axi_one_tx_test' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axi_seq_item' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axi_one_tx_sequence' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_INFO @ 0: reporter [RNTST] Running test axi_one_tx_test...
+UVM_INFO /home/daniel455/Vivado/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO axi_driver.sv(19) @ 0: uvm_test_top.env.axi_agent.driver [AXI_DRV] run_phase entered
+UVM_INFO axi_one_tx_sequence.sv(11) @ 0: uvm_test_top.env.axi_agent.seqr@@seq [AXI_SEQ] Sequence body started
+UVM_INFO axi_driver.sv(22) @ 0: uvm_test_top.env.axi_agent.driver [AXI_DRV] Driving transaction: is_read=0, addr=00000000, wdata=deadbeef
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:30 . Memory (MB): peak = 1534.629 ; gain = 8.004 ; free physical = 10009 ; free virtual = 13751
+INFO: [Common 17-344] 'run' was cancelled
+exit
+INFO: xsimkernel Simulation Memory Usage: 309696 KB (Peak: 354156 KB), Simulation CPU Usage: 30880 ms
+INFO: [Common 17-206] Exiting xsim at Sun Mar 29 18:31:37 2026...

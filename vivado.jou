@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Nov 22 16:34:05 2025
+# Process ID: 23334
+# Current directory: /home/daniel455/GPIO_UVM
+# Command line: vivado
+# Log file: /home/daniel455/GPIO_UVM/vivado.log
+# Journal file: /home/daniel455/GPIO_UVM/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/daniel455/GPIO_UVM/GPIO_UVM/GPIO_UVM.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/monitor.sv] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 /home/daniel455/GPIO_UVM/sim/monitor.sv
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/GPIO_UVM/GPIO_UVM.srcs/sim_1/new/gpio_uvm_pkg.sv] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 /home/daniel455/GPIO_UVM/GPIO_UVM/GPIO_UVM.srcs/sim_1/new/gpio_uvm_pkg.sv
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/agent.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/apb_adapter.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/driver.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/env.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/reg_block.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/sequence.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/sequencer.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/test.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/transaction.sv] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {/home/daniel455/GPIO_UVM/sim/agent.sv /home/daniel455/GPIO_UVM/sim/apb_adapter.sv /home/daniel455/GPIO_UVM/sim/driver.sv /home/daniel455/GPIO_UVM/sim/env.sv /home/daniel455/GPIO_UVM/sim/reg_block.sv /home/daniel455/GPIO_UVM/sim/sequence.sv /home/daniel455/GPIO_UVM/sim/sequencer.sv /home/daniel455/GPIO_UVM/sim/test.sv /home/daniel455/GPIO_UVM/sim/transaction.sv}
+export_ip_user_files -of_objects  [get_files /home/daniel455/GPIO_UVM/sim/apb_if.sv] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 /home/daniel455/GPIO_UVM/sim/apb_if.sv

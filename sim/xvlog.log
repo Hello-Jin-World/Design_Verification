@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/gpio_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/axi_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/axi_seq_item.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/axi_driver.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/axi_agent.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/axi_env.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/axi_one_tx_sequence.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/axi_one_tx_test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/tb_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO.sv" into library work
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/PAD.sv" into library work
+INFO: [VRFC 10-311] analyzing module PAD
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO_DEC_PAD_INPUT.sv" into library work
+INFO: [VRFC 10-311] analyzing module GPIO_DEC_PAD_INPUT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO_SFR.sv" into library work
+INFO: [VRFC 10-311] analyzing module GPIO_SFR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO_SFR_DEC.sv" into library work
+INFO: [VRFC 10-311] analyzing module GPIO_SFR_DEC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/SFR.sv" into library work
+INFO: [VRFC 10-311] analyzing module SFR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/pad_1.sv" into library work
+INFO: [VRFC 10-311] analyzing module pad_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/AXI2APB.sv" into library work
+INFO: [VRFC 10-311] analyzing module AXI2APB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/TOP.sv" into library work
+INFO: [VRFC 10-311] analyzing module TOP

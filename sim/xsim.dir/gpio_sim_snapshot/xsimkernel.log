@@ -1,0 +1,7 @@
+Running: xsim.dir/gpio_sim_snapshot/xsimk -simmode gui -wdb gpio_sim_snapshot.wdb -simrunnum 0 -socket 52025
+Design successfully loaded
+Design Loading Memory Usage: 214888 KB (Peak: 214896 KB)
+Design Loading CPU Usage: 690 ms
+Simulation completed
+Simulation Memory Usage: 310292 KB (Peak: 354156 KB)
+Simulation CPU Usage: 720 ms

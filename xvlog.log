@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2458] undeclared symbol GPIO_CON, assumed default net type wire [/home/daniel455/GPIO_UVM/dut/GPIO.sv:62]
+INFO: [VRFC 10-2458] undeclared symbol GPIO_DAT, assumed default net type wire [/home/daniel455/GPIO_UVM/dut/GPIO.sv:63]
+INFO: [VRFC 10-2458] undeclared symbol GPIO_PUD, assumed default net type wire [/home/daniel455/GPIO_UVM/dut/GPIO.sv:64]
+INFO: [VRFC 10-2458] undeclared symbol GPIO_DRV, assumed default net type wire [/home/daniel455/GPIO_UVM/dut/GPIO.sv:65]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO_DEC_PAD_INPUT.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO_DEC_PAD_INPUT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO_SFR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO_SFR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/GPIO_SFR_DEC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO_SFR_DEC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/PAD.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PAD
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/SFR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SFR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/TOP.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/dut/pad_1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pad_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/daniel455/GPIO_UVM/sim/agent.sv" into library xil_defaultlib
+ERROR: [VRFC 10-2989] 'driver' is not declared [/home/daniel455/GPIO_UVM/sim/agent.sv:36]
+ERROR: [VRFC 10-2989] 'sequencer' is not declared [/home/daniel455/GPIO_UVM/sim/agent.sv:37]
+ERROR: [VRFC 10-2989] 'monitor' is not declared [/home/daniel455/GPIO_UVM/sim/agent.sv:38]

@@ -1,0 +1,24 @@
+#
+# An unexpected error has occurred (11) Segmentation fault
+#
+Stack:
+/home/daniel455/Vivado/2025.2/Vivado/tps/lnx64/jre21.0.5_11/lib//server/libjvm.so(+0xe7195c) [0x7f855707195c]
+/home/daniel455/Vivado/2025.2/Vivado/tps/lnx64/jre21.0.5_11/lib//server/libjvm.so(JVM_handle_linux_signal+0x23e) [0x7f855707242e]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7f859f642520]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_simtcltasks.so(+0x1e9916) [0x7f859dfe9916]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_common.so(+0x81e9c4) [0x7f85ab81e9c4]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libtcl8.6.so(TclNRRunCallbacks+0x47) [0x7f85a6e84497]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libtcl8.6.so(+0x45309) [0x7f85a6e86309]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libtcl8.6.so(Tcl_FSEvalFileEx+0x1f8) [0x7f85a6f3bae8]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_commontasks.so(+0x48349d) [0x7f85acc8349d]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_common.so(+0x81e9c4) [0x7f85ab81e9c4]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libtcl8.6.so(TclNRRunCallbacks+0x47) [0x7f85a6e84497]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_commontasks.so(+0x45b5f8) [0x7f85acc5b5f8]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_commontasks.so(+0x45caed) [0x7f85acc5caed]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_common.so(+0x81e9c4) [0x7f85ab81e9c4]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libtcl8.6.so(TclNRRunCallbacks+0x47) [0x7f85a6e84497]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_commonmain.so(+0x12dfb) [0x7f85acfccdfb]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libtcl8.6.so(Tcl_MainEx+0x1a8) [0x7f85a6f43038]
+/home/daniel455/Vivado/2025.2/Vivado/lib/lnx64.o/libxv_common.so(+0xada064) [0x7f85abada064]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7f859f694ac3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x1268c0) [0x7f859f7268c0]

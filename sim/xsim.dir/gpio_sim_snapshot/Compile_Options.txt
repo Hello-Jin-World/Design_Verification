@@ -1,0 +1,1 @@
+-L "uvm" -relax -debug "typical" -top "tb_top" -snapshot "gpio_sim_snapshot" 
